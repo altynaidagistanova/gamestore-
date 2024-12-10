@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in </title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/> 
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Moon<span>Games</span></a>
+         
+         
+            
+            <div class="nav-icons">
+                <i class="bx bx-bell bx-tada" id="bell-icon"></i>
+                <a href="download.html"><i class="bx bxs-download " id="download-icon"></i></a>
+                <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+                <label for="menu-toggle" class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </label>
+                <div class="overlay"></div>
+                <div class="sidebar">
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://store.steampowered.com/curator/6944017-Top-Trending-Games/" target="_blank">Trending</a></li>
+                            <li><a href="https://www.metacritic.com/browse/game/all/all/all-time/new/" target="_blank">Latest</a></li>
+                            <li><a href="https://yandex.ru/games/categories" target="_blank">Categories</a></li>
+                            <li><a href="https://store.steampowered.com/category/action/" target="_blank">Action Games</a></li>
+                            <li><a href="support.html">Support</a></li>
+                            <li>
+                              <a href="login.html">Log in</a>  
+                              <i class="fas fa-user"></i>                         
+                            </li>
+                            
+                        </ul>
+                        <form class="search-form" role="search">
+                          <input type="text" class="search-input" placeholder="Search games..." aria-label="Search">
+                          <button type="submit" class="search-btn">
+                            <i class="bx bx-search"></i>
+  
+                          </button>
+                      </form>
+                    </nav>
+
+                    <img src="img/png-klev-club-p-genshin-png-1.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-login">
+       
+        <div class="form-container">
+          <h2>Sign in</h2>
+          <form id="login-form">
+            
+            <input type="text" id="username" placeholder="sign in with account name" required>
+            
+            <input type="password" id="password" placeholder="password" required>
+            <button type="submit">Sign in</button>
+          </form>
+          <a href="#">Help,I cant sign in </a>
+        </div>
+    
+       
+        <div class="qr-container">
+          <div>
+            <p>or sign in with QR</p>
+
+            <img src="https://i.pinimg.com/736x/d8/11/10/d81110f74b45542aa26eddc290592ed8.jpg" alt="QR код для входа">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <script src="games.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
